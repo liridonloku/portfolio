@@ -33,7 +33,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Liridon Loku</span>
           <br />
-          I'm a Frontend Web Developer.
+          I'm a Full-Stack Web Developer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -48,37 +48,25 @@
     <section id="about">
       <div class="container">
         <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="https://res.cloudinary.com/dh72xea8l/image/upload/c_scale,w_400/v1649876834/Portfolio/1649876620125_gudwof.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
+        <div class="row about-wrapper justify-content-center">
+          <div class="col-lg-6 col-md-10 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
+              <p class="about-wrapper__info-text text-center">
                 I'm a self taught web developer with a background in
                 finance/accounting. I make functional and responsive web apps
                 using technologies like ReactJS, Redux, JavaScript, TypeScript
                 etc.
               </p>
-              <p class="about-wrapper__info-text">
-                Apart from Development and Tech, I also love Gaming, Sports
-                (especially Football/Soccer), Movies, TV shows and Music.
+              <p class="about-wrapper__info-text text-center">
+                Apart from Development and Tech, I also love Football, Gaming,
+                Movies and TV shows.
               </p>
-              <span class="d-flex mt-3">
+              <span class="d-flex justify-content-center mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="https://drive.google.com/file/d/1jgKVzCuN1G-ch5GvGrKKP5jsEUcP6jTZ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1oWcSY1aCBIdZIMV7OqcM9vV50tXY0MkA/view?usp=sharing"
                 >
                   View Resume
                 </a>
@@ -95,12 +83,70 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Personal Blog</h3>
+                <div>
+                  <p class="mb-4">
+                    My personal Blog made with the MERN stack. It uses a REST
+                    API to communicate with two separate front end apps for
+                    viewing and managing content.
+                  </p>
+                  <p class="mb-4">
+                    Tech Stack: MongoDB, Express, React, NodeJS, TypeScript
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://personal-blog-liridonloku.vercel.app"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/liridonloku/personal-blog"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://personal-blog-liridonloku.vercel.app"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="https://res.cloudinary.com/dh72xea8l/image/upload/c_scale,w_960/v1656159211/Portfolio/Blog-post_z2rrwt.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Faceboook Clone</h3>
+                <h3 class="project-wrapper__text-title">MyBook</h3>
                 <div>
                   <p class="mb-4">
                     A facebook clone made with ReactJS, Redux and TypeScript,
@@ -159,7 +205,66 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Fake Shop</h3>
+                <h3 class="project-wrapper__text-title">Members App</h3>
+                <div>
+                  <p class="mb-4">
+                    A forum like web application where users can create accounts
+                    and have different levels of access depending on their
+                    membership tier.
+                  </p>
+                  <p class="mb-4">
+                    Tech Stack: Node, Express, MongoDB, Pug, Bootsrap.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://sheltered-fjord-22622.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/liridonloku/members-only"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://sheltered-fjord-22622.herokuapp.com/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="https://res.cloudinary.com/dh72xea8l/image/upload/c_scale,w_960/v1656159634/Portfolio/MembersApp_ylhjii.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Fake Store</h3>
                 <div>
                   <p class="mb-4">
                     An e-commerce store app for a fictional company, where users
@@ -206,120 +311,6 @@
                       alt="Project Image"
                       class="img-fluid"
                       src="https://res.cloudinary.com/dh72xea8l/image/upload/c_scale,w_960/v1649874232/Portfolio/ShoppingCart_swr4eu.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Photo Tagging App</h3>
-                <div>
-                  <p class="mb-4">
-                    A photo tagging app based on the childrens game 'Where's
-                    Waldo?', where users have to find the given characters as
-                    fast as they can.
-                  </p>
-                  <p class="mb-4">
-                    Tech Stack: React, Styled Components, Firebase
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://liridonloku.github.io/where-is-waldo"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/liridonloku/where-is-waldo"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://liridonloku.github.io/where-is-waldo"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="https://res.cloudinary.com/dh72xea8l/image/upload/c_scale,w_960/v1649874232/Portfolio/WheresWaldo_gtuyew.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Battleship</h3>
-                <div>
-                  <p class="mb-4">
-                    The classic Battleship game made in HTML, CSS, JavaScript
-                    using the Test Driven Development approach.
-                  </p>
-                  <p class="mb-4">Tech Stack: HTML, CSS, JavaScript, Jest.</p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://liridonloku.github.io/battleship"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/liridonloku/battleship"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://liridonloku.github.io/battleship"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="https://res.cloudinary.com/dh72xea8l/image/upload/c_scale,w_960/v1649874231/Portfolio/BattleShip_bhwe68.jpg"
                     />
                   </div>
                 </a>
